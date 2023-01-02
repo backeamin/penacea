@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.menu-ul{
+    font-size: 14px;
+    font-weight: 600;
+}
+.menu-ul li a{
+    font-family: 'Inter', sans-serif;
+}
+.menu-ul li:first-child a{
+    color: #27CA7D;
+}
+.shoping-cart{
+    color: #27CA7D;
+    font-size: 20px;
+    transform: rotate(-15deg);
+}
+.card{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    border: none;
+    position: absolute;
+    right: 32px;
+    font-weight: 600;
+    top: 10px;
+    background: transparent;
+    color: #27CA7D;
+}
+.card-number{
+    font-size: 8px;
+    position: absolute;
+    right: 35px;
+    top: 25px;
+    font-weight: bold;
+}
+.logo-penacea{
+    width: 100%;
+    height: 45px;
+}
+.search-btn{
+    position: absolute;
+    right: 318px;
+    background-color: #27CA7D;
+    width: 90px;
+    height: 44px;
+    border-radius: 0 5px 5px 0;
+}
+.search-btn:hover{
+    background-color: #27ca7e75;  
+}
+
+.search-btn i{
+    color: white;
+}
+.search-input{
+    height: 45px;
+    background-color: #EBFAF3;
+    outline: none;
+    border: none;
+}
